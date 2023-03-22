@@ -1,6 +1,7 @@
 .lead {
     display: flex;
     flex-direction: column;
-    margin: 48px 0 0;
-    gap: 1em 0;
+    
+    width: 100%;
+    justify-content: space-between;
 }

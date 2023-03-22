@@ -1,0 +1,9 @@
+.intro__lists {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    list-style: none;  
+    margin: auto;
+    max-width: 288px;
+    padding-top: 34px;
+}
