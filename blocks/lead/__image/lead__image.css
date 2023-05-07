@@ -1,5 +1,18 @@
 .lead__image {
-    position: relative;
-    left:-2px;
-    padding-top: 40px;
-}
+    margin-top: 64px;
+    /*width: 984px;*/
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .lead__image {
+     /* max-width: 928px;*/
+      margin-top: 56px;
+    }
+  }
+  
+  @media screen and (max-width: 692px) {
+    .lead__image {
+      margin-top: 40px;
+    }
+  }
