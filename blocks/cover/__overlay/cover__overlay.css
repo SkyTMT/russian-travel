@@ -2,7 +2,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-   /* width: calc(100% - 48px*2);*/
     min-height: 740px;
     align-items: center;
     justify-content: center;
@@ -35,7 +34,6 @@
     .cover__overlay {
       width: 100%;
       min-height: 640px;
-      margin: 0;
     }
   }
   
@@ -47,7 +45,6 @@
   
   @media screen and (max-width: 425px) {
   .cover__overlay {
-    margin-top: 2px;
-    min-height: 200px;
+   min-height: 200px;
   }
   }
